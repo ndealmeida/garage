@@ -115,13 +115,20 @@ a.original:hover {
 
 .sold {
   position: relative;
-  /* top: 200px; */
   background-color: crimson;
-  /* height: 50px; */
   width: 100%;
   color: #FFF;
   line-height: 50px;
   text-align: center;
   font-size: 27px;
-  /* transform: rotate(-30deg); */
+}
+
+.reserved {
+  position: relative;
+  background-color: #fff47d;
+  width: 100%;
+  color: #645252;
+  line-height: 50px;
+  text-align: center;
+  font-size: 27px;
 }

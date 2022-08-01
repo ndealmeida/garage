@@ -24,7 +24,8 @@ const ProductCard = ({ product }) => {
     <>
       <FsLightbox toggler={toggler} sources={imageUrls} type="image" />
       <div className="product">
-        {product.sold && <div className="sold">VENDIDO</div>}
+        {product.status === "sold" && <div className="sold">SOLD</div>}
+        {product.status === "reserved" && <div className="reserved">RESERVED</div>}
         <a href="/#" onClick={onClick}>
           <img src={imageUrls[0]} alt={product.imageUrls[0]} />
         </a>

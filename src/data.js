@@ -12,7 +12,7 @@ export const products = [
     details: [
       'Used a few times',
     ],
-    sold: false
+    status: 'reserved'
   },
   {
     name: 'Balcony Sofa',
@@ -25,7 +25,7 @@ export const products = [
     details: [
       'Nice sofa with 170cm, perfect for gatherings outside. It is super resistent and weather proof. The chaise can be installed either on the left or right, making it a perfect fit for every balcony.',
     ],
-    sold: false
+    status: 'reserved'
   },
   {
     name: 'Display Cabinet',
@@ -38,7 +38,7 @@ export const products = [
     details: [
       'Beautiful display cabinet with 90cm, glass doors and 3 drawers',
     ],
-    sold: false
+    status: 'available'
   },
   {
     name: 'Relax couch set with electrically adjustable foot and USB',
@@ -56,7 +56,7 @@ export const products = [
     details: [
       'This is the most confortable couch you will ever seat. It is an ultra confortable couch with 212cm with electrically adjustable foot and USB and another couch 170cm (normal without electrical). You wont regret relaxing your feet up, watching Netflix while charging your phone with you :)',
     ],
-    sold: false
+    status: 'available'
   },
   {
     name: 'Pantry cabinet',
@@ -71,7 +71,7 @@ export const products = [
     details: [
       'Laundry cabinet with shelves 60x37x200cm',
     ],
-    sold: false
+    status: 'available'
   },
   {
     name: 'Laundry cabinet',
@@ -86,7 +86,7 @@ export const products = [
     details: [
       'Laundry cabinet with shelves 40x37x200cm',
     ],
-    sold: false
+    status: 'available'
   },
   {
     name: 'Shelf with drawers and mirror',
@@ -101,7 +101,7 @@ export const products = [
       'Ikea RAMSHULT wall brackets (10 euros)',
       'Ikea NISSEDAL oak mirror (30 euros)',
     ],
-    sold: false
+    status: 'available'
   },
   {
     name: 'Dinning Table',
@@ -115,7 +115,7 @@ export const products = [
       'Dinning table with 180x90x78 (WxDxH). Original price: 240 euros. If you like the style, you may want to buy the matching TV Rack.',
       '4x Ikea INGOLF chair (260 euros)'
     ],
-    sold: false
+    status: 'reserved'
   },
   {
     name: 'TV Rack',
@@ -131,7 +131,7 @@ export const products = [
     details: [
       'TV rack with 190x51x51cm (WxDxH) in truffle oak color with 2 doors and drawer for storage. If you like the style you may want to buy the matching Dinning Table.',
     ],
-    sold: false
+    status: 'reserved'
   },
   {
     name: 'Reclining Armchair + footrest',
@@ -147,7 +147,7 @@ export const products = [
       'Armchair original price (449 euros): https://www.debommelmeubelen.nl/2681/relaxfauteuil-dania-cognac-kentucky/',
       'Footrest original price (99 euros): https://www.debommelmeubelen.nl/2685/hocker-dania-cognac-kentucky/',
     ],
-    sold: false
+    status: 'available'
   },
   {
     name: 'Bathroom shelving unit',
@@ -161,6 +161,6 @@ export const products = [
     details: [
       'Bathroom shelving unit in good condition',
     ],
-    sold: false
+    status: 'available'
   },
 ]
