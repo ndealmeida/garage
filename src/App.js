@@ -31,9 +31,16 @@ const ProductCard = ({ product }) => {
         <div className="product-details">
           <h3>{product.name}</h3>
           {discount > 0 && <span className="discount">-{discount}%</span>}
-          { product.url !== '' &&
-            <a className="original" href={product.url} target="_blank" rel="noreferrer">Original price</a>
-          }
+          {product.url !== "" && (
+            <a
+              className="original"
+              href={product.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Original price
+            </a>
+          )}
           <ul>
             {product.details.map((detail, idx) => (
               <li key={idx}>{detail}</li>
@@ -53,7 +60,10 @@ function App() {
       <div>
         <header>Junior & Millena&#39;s Garage Sale</header>
         <div className="contact">
-          <h5>We are moving soon, if you are interested, please reach out :). All the items are in <strong>Amsterdam</strong>, Zeeburgereiland.</h5>
+          <h5>
+            We are moving soon, if you are interested, please reach out :). All
+            the items are in <strong>Amsterdam</strong>, Zeeburgereiland.
+          </h5>
           <ul>
             <li>Telephone: 06 3903 7644</li>
             <li>Facebook: Millena Franco</li>
