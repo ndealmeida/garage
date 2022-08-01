@@ -32,7 +32,7 @@ const ProductCard = ({ product }) => {
           <h3>{product.name}</h3>
           {discount > 0 && <span className="discount">-{discount}%</span>}
           { product.url !== '' &&
-            <a className="original" href={product.url} target="_blank">Original price</a>
+            <a className="original" href={product.url} target="_blank" rel="noreferrer">Original price</a>
           }
           <ul>
             {product.details.map((detail, idx) => (
