@@ -53,7 +53,7 @@ function App() {
       <div>
         <header>Junior & Millena&#39;s Garage Sale</header>
         <div className="contact">
-          <h5>We are moving soon, if you are interested, please reach out :)</h5>
+          <h5>We are moving soon, if you are interested, please reach out :). All the items are in <strong>Amsterdam</strong>, Zeeburgereiland.</h5>
           <ul>
             <li>Telephone: 06 3903 7644</li>
             <li>Facebook: Millena Franco</li>
