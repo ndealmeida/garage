@@ -71,7 +71,7 @@ export const products = [
     details: [
       'Laundry cabinet with shelves 60x37x200cm',
     ],
-    status: 'available'
+    status: 'reserved'
   },
   {
     name: 'Laundry cabinet',
@@ -86,7 +86,7 @@ export const products = [
     details: [
       'Laundry cabinet with shelves 40x37x200cm',
     ],
-    status: 'available'
+    status: 'sold'
   },
   {
     name: 'Shelf with drawers and mirror',
@@ -147,7 +147,7 @@ export const products = [
       'Armchair original price (449 euros): https://www.debommelmeubelen.nl/2681/relaxfauteuil-dania-cognac-kentucky/',
       'Footrest original price (99 euros): https://www.debommelmeubelen.nl/2685/hocker-dania-cognac-kentucky/',
     ],
-    status: 'available'
+    status: 'sold'
   },
   {
     name: 'Bathroom shelving unit',
@@ -161,6 +161,6 @@ export const products = [
     details: [
       'Bathroom shelving unit in good condition',
     ],
-    status: 'available'
+    status: 'reserved'
   },
 ]
