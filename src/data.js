@@ -38,7 +38,7 @@ export const products = [
     details: [
       'Beautiful display cabinet with 90cm, glass doors and 3 drawers',
     ],
-    status: 'available'
+    status: 'sold'
   },
   {
     name: 'Relax couch set with electrically adjustable foot and USB',
@@ -56,7 +56,7 @@ export const products = [
     details: [
       'This is the most confortable couch you will ever seat. It is an ultra confortable couch with 212cm with electrically adjustable foot and USB and another couch 170cm (normal without electrical). You wont regret relaxing your feet up, watching Netflix while charging your phone with you :)',
     ],
-    status: 'available'
+    status: 'reserved'
   },
   {
     name: 'Pantry cabinet',
